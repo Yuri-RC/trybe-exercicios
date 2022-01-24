@@ -2,4 +2,16 @@
     
 ![66%](https://progress-bar.dev/66) Bloco 02 - Git, Github e Internet
   
-![0%](https://progress-bar.dev/0)  Bloco 03: Introdução à HTML e CSS
+![0%](https://progress-bar.dev/0) Bloco 03: Introdução à HTML e CSS
+  
+![0%](https://progress-bar.dev/0) Bloco 04: Introdução à JavaScript e Lógica de Programação
+  
+![0%](https://progress-bar.dev/0)
+
+![0%](https://progress-bar.dev/0)
+
+![0%](https://progress-bar.dev/0)
+
+![0%](https://progress-bar.dev/0)
+
+![0%](https://progress-bar.dev/0)

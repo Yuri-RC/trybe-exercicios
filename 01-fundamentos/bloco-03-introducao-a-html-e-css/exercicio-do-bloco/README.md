@@ -1,1 +1,1 @@
-Neste exercício, desenvolvi um portfolio usando HTML e CSS. [Aqui](https://github.com/yuri-rc/trybe-portfolio) você pode ver o repositório do projeto, e [aqui](https://yuri-rc.github.io/trybe-portfolio/), direto do seu navegador. (Também pode ser acessado pelo mobile, está responsivo ^-^)
+Neste exercício, desenvolvi um portfolio usando HTML e CSS. [Aqui](https://github.com/yuri-rc/trybe-portfolio) você pode ver o repositório do projeto, e [aqui](https://yuri-rc.github.io/trybe-portfolio/), direto do seu navegador. (Também pode ser acessado pelo celular, está responsivo ^-^)

@@ -71,3 +71,4 @@ let cont = 0
 // for (num of lista) {
 //   console.log(num/2);
 // }
+

@@ -114,10 +114,11 @@
     function createUl() {
       let numbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
       ul = document.createElement('ul');
+      rightSection.appendChild(ul);
       for (let i = 0; i < numbers.length; i += 1) {
         li = document.createElement('li');
         li.innerHTML = numbers[i];
-        rightSection.appendChild(li);
+        ul.appendChild(li);
       }
     }
     createUl();
@@ -130,6 +131,40 @@
       }
     }
     createH3(['Primeiro h3', 'Segundo h3', 'Terceiro h3'])
+
+    // pt2
+    function addH1class() {
+      h1.addH1class = 'title';
+    }
+    addH1class();
+
+    function addH3Class() {
+      h3List = document.getElementsByTagName('h3')
+      for (let i = 0; i < h3List.length; i += 1) {
+        document.getElementsByTagName('h3')[i].className = 'description';
+      }
+    }
+    addH3Class();
+
+    function removeLeftSection() {
+      leftContent = document.querySelector('.left-content');
+      main.removeChild(leftContent);
+    }
+    removeLeftSection();
+
+    function rightContentMargin() {
+      document.querySelector('.right-content').style.margin = 'auto';
+    }
+    rightContentMargin();
+
+    function changeColor() {
+      document.querySelector('.center-content').style.backgroundColor = 'green';
+    }
+    changeColor();
+
+    ul.lastChild.remove();
+    ul.lastChild.remove();
+
   </script>
 </body>
 

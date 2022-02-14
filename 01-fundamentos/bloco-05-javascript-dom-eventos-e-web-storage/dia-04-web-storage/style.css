@@ -1,0 +1,56 @@
+* {
+  font-family: sans-serif;
+}
+
+.color-container {
+  text-align: center;
+}
+
+.color {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#r, #g, #b {
+  width: 50px;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+#r {
+  background-color: red;
+}
+
+#g {
+  background-color: green;
+}
+
+#b {
+  background-color: blue;
+}
+
+.btn p {
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white
+}

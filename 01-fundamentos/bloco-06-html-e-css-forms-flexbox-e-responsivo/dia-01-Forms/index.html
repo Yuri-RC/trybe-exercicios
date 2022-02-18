@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <h1>TrybeTrip</h1>
+  <form action="">
+    <section id="name-email">
+      <label for="">Name</label>
+      <input type="text" name="name" id="name-text" min="10" max="40">
+      <br>
+      <label for="">Email</label>
+      <input type="text" name="email" id="email-text" min="10" max="40">
+    </section>
+    <section id="destino">
+      <input type="radio" name="opt" id="Cidade" value="option1">
+      <label for="Cidade">Cidade</label>
+      <input type="radio" name="opt" id="Campo" value="option2">
+      <label for="Campo">Campo</label>
+      <input type="radio" name="opt" id="Praia" value="option3">
+      <label for="Praia">Praia</label>
+      <input type="radio" name="opt" id="Montanhas" value="option4">
+      <label for="Montanhas">Montanhas</label>
+    </section>
+    <section id="text-area">
+      <label>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+      <br>
+      <textarea name="answer" id="answer" cols="30" rows="10" max="50"></textarea>
+    </section>
+    <section id="date">
+      <label for="">Data: </label>
+      <input type="date" name="date" id="date">
+    </section>
+    <section id="receber-emails">
+      <input type="checkbox" name="oportunidades" id="oportunidades">
+      <label for="oportunidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+      </label>
+      <br>
+      <input type="checkbox" name="imagens-divulgacao" id="imagens-divulgacao" required>
+      <label for="imagens-divulgacao">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+    </section>
+    <section id="buttons">
+      <button type="submit">Enviar</button>
+      <button id="clear">Apagar</button>
+    </section>
+  </form>
+  <script>
+    let clear = document.querySelector('#clear');
+    function clearForm(event) {
+      event.preventDefault();
+      document.querySelector('form').reset();
+    }
+    clear.addEventListener('click', clearForm);
+  </script>
+</body>
+</html>

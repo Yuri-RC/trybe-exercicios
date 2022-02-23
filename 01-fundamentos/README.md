@@ -8,9 +8,9 @@
   
 ![100%](https://progress-bar.dev/100) Bloco 03: Introdução à HTML e CSS
   
-![0%](https://progress-bar.dev/0) Bloco 04: Introdução à JavaScript e Lógica de Programação
+![100%](https://progress-bar.dev/100) Bloco 04: Introdução à JavaScript e Lógica de Programação
   
-![0%](https://progress-bar.dev/0) Bloco 05: JavaScript: DOM, Eventos e Web Storage
+![100%](https://progress-bar.dev/100) Bloco 05: JavaScript: DOM, Eventos e Web Storage
 
 ![0%](https://progress-bar.dev/0) Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo
 
